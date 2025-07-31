@@ -1,0 +1,11 @@
+### Create a local event
+POST http://localhost:8080/event?message=User login
+
+### Process received message
+POST http://localhost:8080/message?timestamp=5&message=External event
+
+### Get all events with timestamps
+GET http://localhost:8080/events
+
+### Get current Lamport timestamp
+GET http://localhost:8080/time
