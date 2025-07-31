@@ -141,14 +141,6 @@ This implementation demonstrates:
 - **Vector Clocks**: Extension that captures more precise causality information
 - **Distributed Systems**: Concepts like consensus, CAP theorem, and eventual consistency
 
-## Contributing
-
-This is an educational implementation. Consider extending it with:
-- Vector clocks for better causality tracking
-- Persistence layer for event storage
-- Multiple node simulation
-- Performance benchmarks
-
 ---
 
 *"The concept of one event happening before another in a distributed system is examined, and is shown to define a partial ordering of the events."* - Leslie Lamport
